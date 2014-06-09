@@ -129,10 +129,10 @@ float:none;
 }
 
 #about {
+	float: left;
 	background-color: #fff;
 	margin-left: 280px;
 	text-decoration: none;
-	margin-bottom: 120px;
 	text-align: left;
 	width: 350px;
 	text-justify: auto;
@@ -141,9 +141,7 @@ float:none;
 
 #about2 {
 	background-color: #fff;
-	float: right;
-	margin-right: 18%;
-	margin-top: -18%;
+	float: left;
 	text-decoration: none;
 	text-align: left;
 	width: 350px;
@@ -154,12 +152,14 @@ float:none;
 #fotoabout {
 	background-color: #ffffff;
 	float: left;
-	height: 700px;
-	margin-left: 680px;
-	margin-bottom: 120px;
-	margin-top: -400px;
+	margin: 0 20px 0 20px;
 }
 
 #logo {
     border: 0;
+}
+
+p{
+    margin: 0;
+    padding: 0;
 }
