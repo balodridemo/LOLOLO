@@ -1,0 +1,165 @@
+body {
+}
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+/*Todo lo que añadamos aquí se utilizará solo en resoluciones X, donde 700px<=X<=1000px*/
+}[/css]
+
+Ya con el nuevo código CSS para desplazar la barra lateral para que no permita elementos flotantes a los lados y ajustar toda la maquetación a 700px tendríamos algo como lo siguiente:
+[css]
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+#container{
+width: 700px;
+}
+
+#sidebar-content{
+clear: both;
+width: 100%;
+float:none;
+}
+}
+@font-face {
+    font-family: 'revolution';
+    src: url('revolution-webfont.eot');
+    src: url('revolution-webfont.eot?#iefix') format('embedded-opentype'),
+         url('revolution-webfont.woff') format('woff'),
+         url('revolution-webfont.ttf') format('truetype'),
+         url('revolution-webfont.svg#revolutionrevolution') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+#superior {
+	background-color: transparent;
+	height: 154px;
+	float: left;
+}
+#superior #menu {
+	background-color: #ffffff;
+	height: 30px;
+	font-family: revolution;
+	margin-left: 300px;
+	margin-top: 124px;
+	font-size: 22px;
+	position: fixed;
+	word-spacing: 25px;
+}
+
+#lateral {
+	background-color: #ffffff;
+	height: 850px;
+	width: 200px;
+	float: left;
+	margin-left: 50px;
+	position: fixed;
+	opacity: .85;
+}
+#lateral #menu {
+	background-color: #ffffff;
+	height: 30px;
+	font-family: revolution;
+	margin-left: center;
+	margin-top: 25px;
+	font-size: 18px;
+	position: relative;
+	text-align:center;
+	word-spacing: 25px;
+}
+#lateral #logo {
+	margin-top: 10px;
+	margin-right: 25px;
+	margin-left: 25px;
+}
+
+
+#lateral #menubajo {
+	background-color: #fff;
+	text-align: center; 
+	height: 15px; 
+	width: 200px;
+	margin-top: 420px;
+	font-family: revolution;
+	position: relative;
+	
+}
+
+#lateral #contacto {
+	background-color: #ffffff;
+	text-align: center;
+	height: 250px;
+	width: 200px;
+	margin-top: 100px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.espacio {
+	margin: 10px;
+	border: 0;
+}
+.enlaces {
+	text-decoration: none;
+	color: #3a3a3c;
+}
+.stopflotar {
+	clear: both;
+}
+.flotarfoto {
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+#test {
+	background-color: #ffffff;
+	height: 700px;
+	width: 5200px;
+	margin-left: 280px;
+	margin-right: 325px;
+}
+#men {
+	background-color: #ffffff;
+	height: 700px;
+	width: 2221px;
+	margin-left: 280px;
+	margin-right: 325px;
+}
+
+#contenidoprincipal {
+	margin-left: 300px;
+	margin-bottom: 120px;
+	
+}
+
+#about {
+	background-color: #fff;
+	margin-left: 280px;
+	text-decoration: none;
+	margin-bottom: 120px;
+	text-align: left;
+	width: 350px;
+	text-justify: auto;
+	
+}
+
+#about2 {
+	background-color: #fff;
+	float: right;
+	margin-right: 18%;
+	margin-top: -18%;
+	text-decoration: none;
+	text-align: left;
+	width: 350px;
+	text-justify: auto;
+	
+}
+
+#fotoabout {
+	background-color: #ffffff;
+	float: left;
+	height: 700px;
+	margin-left: 680px;
+	margin-bottom: 120px;
+	margin-top: -400px;
+}
+
+#logo {
+    border: 0;
+}
